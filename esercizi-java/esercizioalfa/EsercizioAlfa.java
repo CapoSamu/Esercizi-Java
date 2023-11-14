@@ -1,4 +1,7 @@
 public class EsercizioAlfa {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.print("s:ciao da samuel il programmatore");
         System.out.println("S:Ciao Marika come stai?");
@@ -15,5 +18,27 @@ public class EsercizioAlfa {
         System.out.println("M: Come stai?");
         // Giorno n.2 studio delle variabili
         // x = 8 es 3*x + 5 = 29
+        int numero= 24;
+        String scritta ="ciao";
+        String città = "Genova";
+        System.out.println(numero);
+        System.out.println(scritta);
+        System.out.println(numero);
+        System.out.println(città);
+
+        for(int cifra=0;cifra<10;cifra++) {
+            numero++;
+            System.out.println(numero+"questo è numero");
+            System.out.println(cifra+"questo è cifra");
+
+        }
+
+        int numero1= 10;
+        for(int drive=32;drive<42;drive++) {
+            numero1*=20;
+            System.out.println(numero1+"Questo è variabile numero1");
+            System.out.println(drive+"Questa è la variabile drive" );
+    
+        }
     }
 }
