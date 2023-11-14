@@ -32,13 +32,39 @@ public class EsercizioAlfa {
             System.out.println(cifra+"questo è cifra");
 
         }
-
+        
         int numero1= 10;
         for(int drive=32;drive<42;drive++) {
             numero1*=20;
             System.out.println(numero1+"Questo è variabile numero1");
             System.out.println(drive+"Questa è la variabile drive" );
-    
+            System.out.println(funzione1(50));  
+            funzione2(45); 
         }
     }
+
+        // Funzioni
+
+    
+    public static String  funzione1(int numero2) {
+        
+        int numero3=40;
+
+        System.out.println("Funzione avviata");
+        return "il risultato è "+(numero2 + numero3);
+
+    }
+
+    // Funzioni nascoste
+    public static void  funzione2(int numero5) {
+        
+        int numero3=40;
+
+        System.out.println("Funzione avviata");
+        System.out.println("il risultato è "+(numero5 + numero3));
+
+
+    }
+    // if & else a seguire
+
 }
