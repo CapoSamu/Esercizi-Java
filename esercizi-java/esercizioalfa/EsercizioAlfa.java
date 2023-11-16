@@ -21,6 +21,26 @@ public class EsercizioAlfa {
         int numero= 24;
         String scritta ="ciao";
         String città = "Genova";
+
+        int x;
+        x = 13;
+        System.out.println(x);
+
+        int etaPersona = 34;
+        int eta_persona = 38;
+         System.out.println(etaPersona);
+          System.out.println(eta_persona);
+
+        int y = 24;
+        double o;
+        o = 2.5;
+        x = 27;
+
+        System.out.println(o);
+        System.out.println(x);
+        System.out.println("x");
+        System.out.println(y);
+
         System.out.println(numero);
         System.out.println(scritta);
         System.out.println(numero);
@@ -62,6 +82,45 @@ public class EsercizioAlfa {
 
         System.out.println("Funzione avviata");
         System.out.println("il risultato è "+(numero5 + numero3));
+
+
+    /*
+     * - Dati Primitive e reference
+	    -bolean|true,false| 1bit
+	    -byte|-128 : 127|1 Bytes
+	    -short| 2 bytes
+	    -int| 4 bytes
+	    -long| 8bytes
+
+    -float  n. 6/7 cifre decimali 1.222222 4 bytes
+    -double n. 15 cifre decimali 8bytes
+
+	    -char singolo carattere/lettera/ASCII "f" 2 bytes
+	    -string + caratteri , variabile
+     */
+        
+     boolean luce = true;
+     Boolean gas = false;
+
+     System.out.println(luce);
+     System.out.println(gas);
+
+        float ciao = 1.232323f;
+        System.out.println(ciao);
+        double ciaone = 1.232323232323232f;
+        System.out.println(ciaone);
+
+        char come = 'F';
+        char stai = '%';
+
+        System.out.println(come);
+        System.out.println(stai);
+     
+           
+
+
+
+
 
 
     }
